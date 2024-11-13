@@ -23,7 +23,7 @@ const CrmsDetails = () => {
                 </h1>
                 <p className="text-gray-400 text-xs mt-2">
                   Written By:
-                  <span className="text-white"> Abhishek Kumar</span>
+                  <span className="text-white"> Kishan Kumar</span>
                 </p>
                 <p className="text-slate-300 text-base leading-8 my-5">
                 Due to company guidelines, I cannot showcase the dashboard. However, it is a comprehensive health insurance CRM, where various groups onboard and manage complex insurance claims.

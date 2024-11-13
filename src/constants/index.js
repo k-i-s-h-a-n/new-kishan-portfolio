@@ -8,9 +8,10 @@ import gitLogo from "../assets/git.svg";
 import cicdLogo from "../assets/cicd.svg";
 import kafkaLogo from "../assets/kafka.svg";
 import nextjsLogo from "../assets/nextjs.svg";
-import reduxLogo from "../assets/redux.svg";
+import djnagoLogo from "../assets/django.svg";
 import typescriptLogo from "../assets/typescript.svg";
 import postgresqlLogo from "../assets/postgresql.svg";
+import bootstrapLogo from "../assets/bootstrap.svg";
 import { CiLock } from "react-icons/ci";
 import { CiStreamOn } from "react-icons/ci";
 import { TbListDetails } from "react-icons/tb";
@@ -78,9 +79,9 @@ export const skills = [
   },
   {
     id: 11,
-    name: "Redux",
-    img: reduxLogo,
-    title: "Redux",
+    name: "Django",
+    img: djnagoLogo,
+    title: "Django",
   },
   {
     id: 12,
@@ -93,6 +94,12 @@ export const skills = [
     name: "NEXT.js",
     img: nextjsLogo,
     title: "NEXT.js",
+  },
+  {
+    id: 14,
+    name: "BOOTSTRAP",
+    img: bootstrapLogo,
+    title: "BOOTSTRAP",
   },
 ];
   

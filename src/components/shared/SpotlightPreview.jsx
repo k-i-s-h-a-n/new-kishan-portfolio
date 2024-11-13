@@ -9,13 +9,10 @@ const SpotlightPreview = () => {
       />
       <div className=" p-4 max-w-7xl  mx-auto relative z-10  w-full pt-20 md:pt-0">
         <h1 className="text-4xl md:text-7xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50">
-          Abhishek Kumar <br /> a full stack developer.
+          Kishan Kumar <br /> a full stack developer.
         </h1>
         <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-          I am a full-stack developer with over two years of experience in
-          building dynamic and scalable web and mobile applications. With
-          expertise in the MERN stack, React, React Native, and DevOps (AWS), I
-          manage both front-end and back-end development.
+        I’m a Full Stack Developer with over two years of experience in building and deploying scalable web applications. Proficient in Python, Django, and core web technologies, I handle both front-end and back-end development, focusing on functionality and user experience. I deploy applications using EC2 and aaPanel for efficient, reliable performance. 
         </p>
       </div>
     </div>

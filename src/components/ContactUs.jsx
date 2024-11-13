@@ -30,7 +30,7 @@ const ContactUs = () => {
     const templateID = "template_gdkv6w5"; 
     const userID = "BUgwRrCtSeK2g1XRg"; 
     const templateParams = {
-      to_name: "Abhishek Kumar", 
+      to_name: "Kishan Kumar", 
       from_name: `${formData.firstName} ${formData.lastName}`, 
       message: formData.message,
     };

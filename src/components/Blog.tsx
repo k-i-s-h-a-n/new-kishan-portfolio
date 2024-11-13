@@ -24,7 +24,7 @@ const Blog = () => {
               </h1>
               <p className="text-gray-400 text-xs mt-2">
                 Written By:
-                <span className="text-white"> Abhishek Kumar</span>
+                <span className="text-white"> Kishan Kumar</span>
               </p>
               <p className="text-slate-300 text-base leading-8 my-5">
                 When I started my Bootcamp, I was just a curious learner with a

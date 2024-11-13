@@ -18,7 +18,7 @@ const WelcomeModal = ({ closeModal }) => {
             Welcome to My Portfolio!
           </h2>
           <p className="text-lg text-slate-500 mb-4">
-            Hi, I&apos;m <span className="text-yellow-400">Abhishek</span>! I hope you&apos;re doing well.
+            Hi, I&apos;m <span className="text-yellow-400">Kishan</span>! I hope you&apos;re doing well.
           </p>
         </div>
 

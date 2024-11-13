@@ -39,7 +39,7 @@ const Navbar = () => {
         if (nav === "Download CV") {
             const link = document.createElement("a");
             link.href = Cv; 
-            link.download = "Abhishek_CV.pdf"; 
+            link.download = "Kishan_CV.pdf"; 
             link.click();
             return;
         } 
@@ -66,7 +66,7 @@ const Navbar = () => {
             <header className="w-full py-5 sm:px-10 px-5 flex justify-between items-center">
                 <nav className="flex w-full screen-max-width relative">
                     <button className="text-lg font-normal" onClick={handleHome}>
-                        <span className="text-sm">AVI</span>
+                        <span className="text-sm">KISHAN</span>
                         <span className="font-bold mx-1">|</span>
                         <span className="text-sm">DEV</span>
                     </button>
