@@ -1,0 +1,62 @@
+/* styles.css or tailwind.config.css */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .transform {
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .rotate-6 {
+    transform: rotate(6deg);
+  }
+  
+  .-rotate-6 {
+    transform: rotate(-6deg);
+  }
+  
+/* CardStyles.css */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* CardStyles.css */
+.card {
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Media query for small screens (up to 600px) */
+@media (max-width: 600px) {
+  @keyframes zoomIn {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1); /* Adjust the scale factor as needed */
+    }
+  }
+
+  @keyframes zoomOut {
+    from {
+      transform: scale(1.1);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  .card-zoom-in {
+    animation: zoomIn 0.5s forwards;
+  }
+
+  .card-zoom-out {
+    animation: zoomOut 0.5s forwards;
+  }
+}
