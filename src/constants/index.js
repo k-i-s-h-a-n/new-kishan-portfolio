@@ -105,9 +105,12 @@ export const skills = [
   
 
 export const cardsData = [
-  { projectName: 'Incorners', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.', buttonText: 'Go Live' , link:"https://incorners.com/" , icon: CiStreamOn },
-  { projectName: 'Ghar', description: 'Discover top construction stores with a wide range of items, sorted by categories and advanced search features for easy access.', buttonText: 'Scan' , link:"" , icon: MdQrCodeScanner },
-  { projectName: 'Aeonix', description: 'Transforming Concepts into Seamless User Experiences with Aeonix Research & Innovations.', buttonText: 'Go Live' , link:"https://aeonixinnovations.com/" , icon: CiStreamOn },
+  { projectName: 'OMR Eval', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.', buttonText: 'Go Live' , link:"https://lcm.okcl.co.in/" , icon: CiStreamOn },
+  { projectName: 'EduVerse', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.', buttonText: 'Go Live' , link:"https://ebook.okcl.co.in/" , icon: CiStreamOn },
+  { projectName: 'tezKarya', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.', buttonText: 'Go Live' , link:"https://link.okcl.org/" , icon: CiStreamOn },
+  { projectName: 'LC Monitoring', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.', buttonText: 'Go Live' , link:"https://lcm.okcl.co.in/" , icon: CiStreamOn },  
+  { projectName: 'Center Visits', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.', buttonText: 'Go Live' , link:"https://visits.okcl.co.in/" , icon: CiStreamOn },
+  { projectName: 'tezKarya', description: 'Transforming Concepts into Seamless User Experiences with Aeonix Research & Innovations.', buttonText: 'Go Live' , link:"https://aeonixinnovations.com/" , icon: CiStreamOn },
   {projectName: 'HotelStay', description: 'An intuitive platform for booking comfortable stays. Discover a seamless way to find and book hotels with a modern interface.', buttonText: 'Go Live' , link:"https://justlinkon.netlify.app/" , icon: CiStreamOn},
   { projectName: 'Secrets', description: 'This story reflects my journey, highlighting how I started, my internship experiences, and my current role', buttonText: 'Open' , link:"/secrets-details" , icon: CiLock },
   { projectName: 'CRMs', description: 'This section showcases my CRM work, emphasizing its complexity, pure MERN stack development, and additional features.', buttonText: 'Details' , link:"/crms-details" , icon: TbListDetails },

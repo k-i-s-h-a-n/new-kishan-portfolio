@@ -12,7 +12,7 @@ const SpotlightPreview = () => {
           Kishan Kumar <br /> a full stack developer.
         </h1>
         <p className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-center mx-auto">
-        I’m a Full Stack Developer with over two years of experience in building and deploying scalable web applications. Proficient in Python, Django, and core web technologies, I handle both front-end and back-end development, focusing on functionality and user experience. I deploy applications using EC2 and aaPanel for efficient, reliable performance. 
+        I'm a Full Stack Developer with 2+ years of experience in building web applications using Python, Django, and core web technologies. I handle both front-end and back-end, with deployments on EC2 and aaPanel.
         </p>
       </div>
     </div>
