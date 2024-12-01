@@ -11,6 +11,12 @@ import Blog from "./components/Blog";
 import SecretsOfMe from "./components/shared/secretsOfMe/Secrets";
 import WelcomeModal from "./components/StartingModel";
 import CrmsDetails from "./components/CrmsDetails";
+import ProjectVisits from "./components/ProjectVisits";
+import ProjectsOmr from "./components/ProjectsOmr";
+import ProjectsEduverse from "./components/ProjectsEduverse";
+import ProjectsLcmonitoring from "./components/ProjectsLcmonitoring";
+import ProjectsTezkarya from "./components/ProjectsTezkarya";
+import ProjectsCredit from "./components/ProjectsCredit";
 
 export default function App() {
   const [isModalOpen, setIsModalOpen] = useState(false); // Default to false
@@ -50,6 +56,12 @@ export default function App() {
         <Route path="/avi-blog" element={<Blog />} />
         <Route path="/secrets-details" element={<SecretsOfMe />} />
         <Route path="/crms-details" element={<CrmsDetails />} />
+        <Route path="/project-vists" element={<ProjectVisits />} />
+        <Route path="/project-OMR" element={<ProjectsOmr />} />
+        <Route path="/project-eduverse" element={<ProjectsEduverse/>} />
+        <Route path="/project-lcMonitoring" element={<ProjectsLcmonitoring />} />
+        <Route path="/project-tezKarya" element={<ProjectsTezkarya />} />
+        <Route path="/project-credit" element={<ProjectsCredit />} />
       </Routes>
 
       {/* Show the welcome modal if isModalOpen is true */}

@@ -105,18 +105,19 @@ export const skills = [
   
 
 export const cardsData = [
-  { projectName: 'OMR Eval', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.', buttonText: 'Go Live' , link:"https://lcm.okcl.co.in/" , icon: CiStreamOn },
-  { projectName: 'EduVerse', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.', buttonText: 'Go Live' , link:"https://ebook.okcl.co.in/" , icon: CiStreamOn },
-  { projectName: 'tezKarya', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.', buttonText: 'Go Live' , link:"https://link.okcl.org/" , icon: CiStreamOn },
-  { projectName: 'LC Monitoring', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.', buttonText: 'Go Live' , link:"https://lcm.okcl.co.in/" , icon: CiStreamOn },  
-  { projectName: 'Center Visits', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.', buttonText: 'Go Live' , link:"https://visits.okcl.co.in/" , icon: CiStreamOn },
-  { projectName: 'tezKarya', description: 'Transforming Concepts into Seamless User Experiences with Aeonix Research & Innovations.', buttonText: 'Go Live' , link:"https://aeonixinnovations.com/" , icon: CiStreamOn },
-  {projectName: 'HotelStay', description: 'An intuitive platform for booking comfortable stays. Discover a seamless way to find and book hotels with a modern interface.', buttonText: 'Go Live' , link:"https://justlinkon.netlify.app/" , icon: CiStreamOn},
-  { projectName: 'Secrets', description: 'This story reflects my journey, highlighting how I started, my internship experiences, and my current role', buttonText: 'Open' , link:"/secrets-details" , icon: CiLock },
-  { projectName: 'CRMs', description: 'This section showcases my CRM work, emphasizing its complexity, pure MERN stack development, and additional features.', buttonText: 'Details' , link:"/crms-details" , icon: TbListDetails },
-  {projectName:"Socials" , description:'A social media platform for teenagers 18+ to make friends, follow each other, engage in live streams, and connect meaningfully.' , buttonText: 'Go Live' , link:'https://d2lpc59r4ad0hn.cloudfront.net/' , icon: CiStreamOn },
-  { projectName: 'Dating', description: 'Most Trusted Matrimony Service. A trustworthy guide to discover your true love forever with the best compatibility', buttonText: 'Go Live' ,link:"https://shohozshadi.com/" , icon: CiStreamOn },
-  {projectName:"Credit" , description:'A platform to check and improve your credit score with personalized tips and financial insights.', buttonText: 'Go Live' , link:'https://creditscore-brhn.onrender.com/' , icon: CiStreamOn},
+  { projectName: 'Visits', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.',  buttonText: 'Details' , link:"/project-vists" , icon: TbListDetails},
+
+  { projectName: 'OMR Eval', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.',  buttonText: 'Details' , link:"/project-OMR" , icon: TbListDetails },
+  
+  { projectName: 'EduVerse', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.', buttonText: 'Details' , link:"/project-eduverse" , icon: TbListDetails },
+  
+  { projectName: 'Lc-Monitor', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.',  buttonText: 'Details' , link:"/project-lcMonitoring" , icon: TbListDetails },
+
+  { projectName: 'tezKarya', description: 'Transforming Concepts into Seamless User Experiences with Aeonix Research & Innovations.', buttonText: 'Details' , link:"/project-tezKarya" , icon: TbListDetails},
+
+  {projectName: 'credit', description: 'An intuitive platform for booking comfortable stays. Discover a seamless way to find and book hotels with a modern interface.',  buttonText: 'Details' , link:"/project-credit" , icon: TbListDetails},
+
+
 ];
 
 

@@ -29,6 +29,22 @@ import explore2 from "/assets/images/explore2.jpg";
 import chip from "/assets/images/chip.jpeg";
 import frame from "/assets/images/frame.png";
 
+
+
+
+
+
+
+import frame from "/assets/projectImages/visits.png/";
+
+
+
+
+
+
+
+
+
 export const heroVideo = hmv;
 export const smallHeroVideo = smallmv;
 export const highlightFirstVideo = highlightFirstmv;
