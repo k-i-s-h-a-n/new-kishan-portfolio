@@ -28,7 +28,7 @@ import { motion } from "framer-motion";
       ref={svgRef}
       width="100%"
       height="100%"
-      viewBox="0 0 300 100"
+      viewBox="0 0 420 100"
       xmlns="http://www.w3.org/2000/svg"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
@@ -55,7 +55,7 @@ import { motion } from "framer-motion";
         <motion.radialGradient
           id="revealMask"
           gradientUnits="userSpaceOnUse"
-          r="20%"
+          r="30%"
           animate={maskPosition}
           // example for a smoother animation below
           //   transition={{

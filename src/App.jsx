@@ -6,7 +6,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import FeedbackInfiniteScroller from "./components/shared/Feebacks/Feedbacks";
-import VideoContainer from "./components/shared/VideoContainer";
+// import VideoContainer from "./components/shared/VideoContainer";
 import Blog from "./components/Blog";
 import SecretsOfMe from "./components/shared/secretsOfMe/Secrets";
 import WelcomeModal from "./components/StartingModel";
@@ -47,7 +47,7 @@ export default function App() {
               <Hero />
               <Projects />
               <About />
-              <VideoContainer />
+              {/* <VideoContainer /> */}
               <FeedbackInfiniteScroller />
               <ContactUs />
             </main>
