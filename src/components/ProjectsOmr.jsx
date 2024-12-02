@@ -19,6 +19,9 @@ const CrmsDetails = () => {
       setShowPdf(false);
     }
   };
+  const openLink = (url) => {
+    window.open(url, "_blank");
+  };
 
   return (
     <>
@@ -93,7 +96,7 @@ const CrmsDetails = () => {
                 </button>
               </span>
 
-              <p className="text-xl font-bold">Tools: Python & Django, DRF, HTML, CSS, Bootstrap, AWS (EC2, S3), aaPanel, postgresql, git & gitLab</p>
+              <p className="text-xl font-bold">Tools: Python & Django, DRF, HTML, CSS, Javascript, Bootstrap, AWS (EC2, S3), aaPanel, postgresql, git & gitLab</p>
               <h3 className="text-xl font-bold text-white my-5"># Webapp Features</h3>
               <p className="text-slate-300 text-base leading-8 my-5">Question Paper Generation / Download</p>
               <p className="text-gray-500">

@@ -20,6 +20,10 @@ const CrmsDetails = () => {
     }
   };
 
+  
+    const openLink = (url) => {
+      window.open(url, "_blank");
+    };
   return (
     <>
       <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 relative">
@@ -67,83 +71,86 @@ const CrmsDetails = () => {
           <div className="mt-3 bg-gray-900 rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
             <div className="bg-black text-white relative top-0 -mt-32 p-5 sm:p-10">
               <h1 className="text-white font-bold text-3xl mb-2">
-                Visits: The OKCL Center Visits Application (Dashboards & API)
+                EduVerse: An eBook Reader Platform for School Students
               </h1>
               <p className="text-gray-400 text-xs mt-2">
                 Developed By:
                 <span className="text-white"> Kishan Kumar</span>
               </p>
               <p className="text-slate-300 text-base leading-8 my-5">
-                In our company, there are numerous visits happening across 30
-                districts, managed by 30 District Learning Coordinators (DLCs).
-                Each district has over 650 Authorized Learning Centers (ALCs).
-                Managing these visits manually was a challenging and time-consuming
-                task. To address this, I was assigned this project and provided
-                with requirements to automate the entire process, ensuring streamlined
-                operations and efficient management.
+              EduVerse is an innovative eBook reader designed to cater to the educational needs of schools and institutions. Developed to complement our e-content offerings, it combines advanced technology with user-centric features. Key functionalities include text-to-speech, AI-powered translation, detailed word analysis (meanings, synonyms, antonyms, pronunciation, usage examples), a search function, and page tracking to monitor reading progress and time spent.
+
               </p>
               <p className="text-gray-500">
-                <strong>NOTE : </strong> Due to company guidelines and the sensitive
-                nature of the data, the dashboard is accessible only with proper
-                authorization. However, a detailed guide is attached to provide an
-                overview of its features and functionality.
+                <strong>NOTE : </strong>Due to the sensitive nature of the company's data, I am unable to provide admin access. However, you can explore the learner's website dashboard to gain insights. Additionally, a detailed guide is attached, offering a comprehensive overview of the platform's features and functionality.
               </p>
               <br />
               <span>
-                Website:{" "}
+              Website:{" "}
                 <button
-                  onClick={() => openLink("https://visits.okcl.co.in/")}
+                  onClick={() => openLink("https://ebook.okcl.co.in/")}
                   className="text-xs text-gray-500 font-medium hover:text-gray-300 transition duration-500 ease-in-out"
                 >
-                  OKCL Visits
+                  EduVerse (Click Me)
                 </button>
               </span>
-
-              <p className="text-xl font-bold">Tools: Django, DRF, HTML, CSS, Bootstrap, AWS (EC2, S3), aaPanel</p>
-              <h3 className="text-xl font-bold text-white my-5"># My Role</h3>
-              <p className="text-slate-300 text-base leading-8 my-5">Admin Panel Website</p>
+              <p className="text-xl font-bold">Tools: Python & Django, DRF, HTML, CSS, Javascript, Bootstrap, AWS (EC2, S3), aaPanel, postgresql, git & gitLab</p>
+              <h3 className="text-xl font-bold text-white my-5"># Features</h3>
+              <p className="text-slate-300 text-base leading-8 my-5">Learner's Dashboard</p>
               <p className="text-gray-500">
-                The admin panel serves as a comprehensive backend system enabling
-                seamless management and control of the Visits Android app. It is
-                designed to streamline processes across various roles while ensuring
-                efficiency and user-friendliness.
+              EduVerse is a smart eBook reader designed to enhance the learning experience for students. It offers cutting-edge features such as Text-to-Speech, AI-Powered Translation, and detailed word analysis, making learning interactive and accessible. These functionalities are seamlessly integrated into the learner's login dashboard for a personalized experience.
               </p>
               <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-gray-500 border-gray-700">
-                <strong>User Management:</strong> From the RM login, admins can
-                create and manage users such as ALC, DLC, and other RMs either
-                individually or in bulk using Excel. Admins can also edit or
-                delete user accounts.
+                <strong>Text-to-Speech:</strong>
+                <p><strong>1 - Read Selected Text:</strong>
+                Users can draw a rectangular area on the PDF page to select specific text. Clicking the "Read" button will prompt the system to read aloud only the selected content.</p>
+                <p><strong>2 - Read Entire Page: </strong>Alternatively, users can opt to read the entire content of the current page in one go.</p>
+                <p><strong>3- Play/Pause Functionality: </strong>Users can start or pause the speech at any point for convenience.</p>
+                <p><strong>4 - Speed Control:</strong>The feature allows users to adjust the reading speed according to their preference, ensuring a comfortable and personalized experience.</p>
               </blockquote>
+
+
               <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-gray-500 border-gray-700">
-                <strong>Report Management:</strong> The admin panel allows RMs
-                to view reports submitted through the Visits Android app, apply
-                filters, export data to Excel, and approve or reject reports
-                submitted by users.
+                <strong>AI-Powered Translation:</strong> EduVerse leverages the power of Python and its robust libraries to provide accurate translations, currently supporting English to Odia. With an accuracy rate of 85–90%, this feature ensures effective communication and understanding for Odia-speaking learners.
               </blockquote>
+
+
               <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-gray-500 border-gray-700">
-                <strong>Event Management:</strong> Admins can create custom
-                events, control their visibility in the app, and allocate or
-                deallocate events to specific users, providing full control over
-                event operations.
+                <strong>Automatic Word Selection:</strong> EduVerse automatically detects important words in the content, providing students with detailed information such as meanings, synonyms, antonyms, pronunciation, and usage examples. This feature helps students easily learn and understand key terms, enhancing their vocabulary and comprehension.
               </blockquote>
+
+              <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-gray-500 border-gray-700">
+                <strong>Search Word Functionality:</strong>Allows users to quickly find specific words or phrases within the content, saving time and improving navigation.
+              </blockquote>
+
+              <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-gray-500 border-gray-700">
+                <strong>Page Tracking and Progress Monitoring:</strong> EduVerse tracks time spent on each page, daily learning progress, and words searched, helping students monitor their own progress and enabling educators to assess performance.
+              </blockquote>
+
 
               <p className="text-slate-300 text-base leading-8 my-5">
-                API Development for the Visits Android App
+                Admin Dashboard
               </p>
               <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-gray-500 border-gray-700">
-                For <strong>ALC, DLC, and RM</strong> users, I developed all the
-                APIs required to facilitate the submission of allocated events
-                directly through their mobile devices. These APIs ensure seamless
-                communication between the app and the backend, enabling efficient
-                event management and data synchronization.
+                <p> 1- The Admin Dashboard allows teachers to efficiently manage eBook content by adding, editing, or deleting eBooks according to predefined categories and subcategories. </p>
+                <p>
+                2 - Teachers can also manage school details and track individual student learning progress, monitoring their engagement and performance to ensure effective learning outcomes.
+                </p>
               </blockquote>
 
               <p className="text-slate-300 text-base leading-8 my-5">
                 AWS S3 Integration for Media Storage
               </p>
               <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-gray-500 border-gray-700">
-                To manage and securely store all media files submitted through the
-                Visits Android app, I integrated AWS S3 into the system.
+                To manage and securely store all media and static files, I integrated AWS S3 into the system.
+              </blockquote>
+
+
+              <p className="text-slate-300 text-base leading-8 my-5">
+                Project Deployment
+              </p>
+              <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-gray-500 border-gray-700">
+              The project was successfully deployed on an AWS EC2 instance, ensuring high availability and scalability. Media files are securely stored using AWS S3, and aaPanel was utilized for efficient server management. This setup guarantees seamless access and performance for all users.
               </blockquote>
             </div>
           </div>
