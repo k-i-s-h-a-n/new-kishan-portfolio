@@ -99,7 +99,7 @@ const CrmsDetails = () => {
                 </button>
               </span>
 
-              <p className="text-xl font-bold">Tools: Python & Django, DRF, HTML, CSS, Bootstrap, AWS (EC2, S3), aaPanel, postgresql</p>
+              <p className="text-xl font-bold">Tools: Python & Django, DRF, HTML, CSS, Bootstrap, AWS (EC2, S3), aaPanel, postgresql, git & gitLab</p>
               <h3 className="text-xl font-bold text-white my-5"># My Role</h3>
               <p className="text-slate-300 text-base leading-8 my-5">Admin Panel Website</p>
               <p className="text-gray-500">
@@ -144,6 +144,14 @@ const CrmsDetails = () => {
               <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-gray-500 border-gray-700">
                 To manage and securely store all media files submitted through the
                 Visits Android app, I integrated AWS S3 into the system.
+              </blockquote>
+
+
+              <p className="text-slate-300 text-base leading-8 my-5">
+                Project Deployment
+              </p>
+              <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-gray-500 border-gray-700">
+              The project was successfully deployed on an AWS EC2 instance, ensuring high availability and scalability. Media files are securely stored using AWS S3, and aaPanel was utilized for efficient server management. This setup guarantees seamless access and performance for all users.
               </blockquote>
             </div>
           </div>

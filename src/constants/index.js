@@ -105,9 +105,9 @@ export const skills = [
   
 
 export const cardsData = [
-  { projectName: 'Visits', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.',  buttonText: 'Details' , link:"/project-vists" , icon: TbListDetails},
+  { projectName: 'Visits', description: 'Automated visit management for ALC, DLC, and RM with seamless API integration.',  buttonText: 'Details' , link:"/project-vists" , icon: TbListDetails},
 
-  { projectName: 'OMR Eval', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.',  buttonText: 'Details' , link:"/project-OMR" , icon: TbListDetails },
+  { projectName: 'OMR', description: 'The OMR Examination System simplifies exam creation, scanning, and result analysis.',  buttonText: 'Details' , link:"/project-OMR" , icon: TbListDetails },
   
   { projectName: 'EduVerse', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.', buttonText: 'Details' , link:"/project-eduverse" , icon: TbListDetails },
   
