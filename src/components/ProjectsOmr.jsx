@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import omr from "../assets/projectImages/omr.png";
 import omrPdf from "../assets/projectPdfs/omrProject.pdf";
+import { Viewer, Worker } from "@react-pdf-viewer/core";
+import "@react-pdf-viewer/core/lib/styles/index.css";
 
 const CrmsDetails = () => {
   const [showPdf, setShowPdf] = useState(false);
@@ -19,6 +21,7 @@ const CrmsDetails = () => {
       setShowPdf(false);
     }
   };
+
   const openLink = (url) => {
     window.open(url, "_blank");
   };
@@ -36,7 +39,7 @@ const CrmsDetails = () => {
           title="Click to View PDF"
           onClick={openPdfModal} // Click on the image to open the PDF
         >
-          {/* Hover Text - This will appear when the user hovers over the image */}
+          {/* Hover Text */}
           <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-50 text-white text-xl font-bold">
             Click to View PDF
           </div>
@@ -55,13 +58,9 @@ const CrmsDetails = () => {
               >
                 Close
               </button>
-              <iframe
-                src={omrPdf}
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                title="Visits PDF"
-              ></iframe>
+              <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
+                <Viewer fileUrl={omrPdf} />
+              </Worker>
             </div>
           </div>
         )}

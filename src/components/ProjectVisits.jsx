@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { Worker, Viewer } from '@react-pdf-viewer/core';
+import '@react-pdf-viewer/core/lib/styles/index.css';
+import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 import kishan from "../assets/projectImages/visits.png";
 import visitsPdf from "../assets/projectPdfs/visits.pdf";
 
@@ -20,9 +23,6 @@ const CrmsDetails = () => {
     }
   };
 
-  const openLink = (url) => {
-    window.open(url, "_blank");
-  };
   return (
     <>
       <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 relative">
@@ -36,7 +36,7 @@ const CrmsDetails = () => {
           title="Click to View PDF"
           onClick={openPdfModal} // Click on the image to open the PDF
         >
-          {/* Hover Text - This will appear when the user hovers over the image */}
+          {/* Hover Text */}
           <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-50 text-white text-xl font-bold">
             Click to View PDF
           </div>
@@ -48,23 +48,21 @@ const CrmsDetails = () => {
             className="fixed inset-0 z-50 bg-black bg-opacity-50 flex items-center justify-center pdf-modal-overlay"
             onClick={handleClickOutside} // Close modal if clicked outside
           >
-            <div className="bg-white p-5 w-3/4 h-3/4 overflow-auto relative">
+            <div className="bg-white p-5 w-11/12 sm:w-3/4 h-3/4 overflow-auto relative">
               <button
                 onClick={closePdfModal}
-                className="absolute top-2 right-2 text-white font-bold"
+                className="absolute top-2 right-2 text-black font-bold"
               >
                 Close
               </button>
-              <iframe
-                src={visitsPdf}
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                title="Visits PDF"
-              ></iframe>
+              {/* PDF Viewer */}
+              <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
+                  <Viewer fileUrl={visitsPdf} />
+              </Worker>
             </div>
           </div>
         )}
+     
 
         <div className="max-w-3xl mx-auto">
           <div className="mt-3 bg-gray-900 rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
