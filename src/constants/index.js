@@ -109,13 +109,14 @@ export const cardsData = [
 
   { projectName: 'OMR', description: 'The OMR Examination System simplifies exam creation, scanning, and result analysis.',  buttonText: 'Details' , link:"/project-OMR" , icon: TbListDetails },
   
-  { projectName: 'EduVerse', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.', buttonText: 'Details' , link:"/project-eduverse" , icon: TbListDetails },
+  { projectName: 'EduVerse', description: 'EduVerse is a smart eBook reader with advanced tools, progress tracking, and payment integration.', buttonText: 'Details' , link:"/project-eduverse" , icon: TbListDetails },
   
-  { projectName: 'Lc-Monitor', description: 'Discover and book a wide range of real estate plots effortlessly. From residential properties to commercial spaces.',  buttonText: 'Details' , link:"/project-lcMonitoring" , icon: TbListDetails },
+  { projectName: 'Lc-Monitor', description: 'LC Monitoring tracks student progress and provides insights on course completion and time spent.',  buttonText: 'Details' , link:"/project-lcMonitoring" , icon: TbListDetails },
 
-  { projectName: 'tezKarya', description: 'Transforming Concepts into Seamless User Experiences with Aeonix Research & Innovations.', buttonText: 'Details' , link:"/project-tezKarya" , icon: TbListDetails},
+  { projectName: 'tezKarya', description: ' A web app providing tools for URL shortening, custom QR codes, file conversions, and more.', buttonText: 'Go Live' , link:"https://link.okcl.org/" , icon: CiStreamOn},
 
-  {projectName: 'credit', description: 'An intuitive platform for booking comfortable stays. Discover a seamless way to find and book hotels with a modern interface.',  buttonText: 'Details' , link:"/project-credit" , icon: TbListDetails},
+  {projectName: 'credit', description: 'Designed a custom UI for the client, focusing on their requirements, branding, and user experience.',  buttonText: 'Go Live' , link:'https://creditscore-brhn.onrender.com/' , icon: CiStreamOn},
+
 
 
 ];

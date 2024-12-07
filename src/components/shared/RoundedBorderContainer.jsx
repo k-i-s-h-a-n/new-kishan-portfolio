@@ -48,9 +48,9 @@ const RoundedBorderContainer = () => {
         </div>
      
         {hovered ? (
-          <a href="tel:+916204926745" 
+          <a href="tel:+918340562279" 
    className="text-sm font-light opacity-100 transition-opacity duration-500 text-green-500 hover:text-green-700 animate-pulse">
-    +91 6204926745
+    +91 8340562279
 </a>
 
         ) : (

@@ -5,7 +5,7 @@ const SocialMedia = () => {
         <section className="flex justify-center items-center space-x-20 mt-4 md:-ml-20 -ml-5">
   <button
     className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold hover:translate-y-3 transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
-    onClick={() => window.location.href = 'https://github.com/'} // Replace with the actual URL or function if needed
+    onClick={() => window.location.href = 'https://github.com/k-i-s-h-a-n'}
   >
     <svg
       className="w-5"
@@ -27,7 +27,7 @@ const SocialMedia = () => {
 
   <button
     className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-[#0077b5] text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500"
-    onClick={() => window.location.href = 'https://www.linkedin.com/in/iKishanumar'} // Replace with the actual URL or function if needed
+    onClick={() => window.location.href = 'https://www.linkedin.com/in/kishan-kumar-lets-get-connected/'} 
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -48,7 +48,7 @@ const SocialMedia = () => {
 
   <button
     className="group flex justify-center p-2 rounded-md drop-shadow-xl bg-gradient-to-r from-gray-800 to-black text-white font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
-    onClick={() => window.location.href = 'https://x.com/Stack_Abhi'} // Replace with the actual URL or function if needed
+    onClick={() => window.location.href = 'https://www.linkedin.com/in/kishan-kumar-lets-get-connected/'}
   >
     <svg
       xmlns="http://www.w3.org/2000/svg"

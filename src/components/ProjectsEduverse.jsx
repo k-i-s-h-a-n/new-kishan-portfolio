@@ -124,8 +124,15 @@ const CrmsDetails = () => {
               </blockquote>
 
               <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-gray-500 border-gray-700">
+                <strong>Razorpay Payment Integration:</strong> EduVerse integrates Razorpay to manage payments for eBooks and subscriptions. It ensures secure, efficient transactions and supports multiple payment options for user convenience.
+              </blockquote>
+
+              
+              <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-gray-500 border-gray-700">
                 <strong>Page Tracking and Progress Monitoring:</strong> EduVerse tracks time spent on each page, daily learning progress, and words searched, helping students monitor their own progress and enabling educators to assess performance.
               </blockquote>
+
+              
 
 
               <p className="text-slate-300 text-base leading-8 my-5">
