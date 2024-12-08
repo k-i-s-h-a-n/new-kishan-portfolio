@@ -136,7 +136,7 @@ export const cardsData = [
   ];
   
 
-  export const navLists = ["About","Why Me?","Contact!","Download CV", "Blog"];
+  export const navLists = ["About","Why Me?","Contact!","Download CV"];
   
   
 
