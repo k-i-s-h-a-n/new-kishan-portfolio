@@ -111,7 +111,7 @@ export const cardsData = [
   
   { projectName: 'EduVerse', description: 'EduVerse is a smart eBook reader with advanced tools, progress tracking, and payment integration.', buttonText: 'Details' , link:"/project-eduverse" , icon: TbListDetails },
   
-  { projectName: 'Lc-Monitor', description: 'LC Monitoring tracks student progress and provides insights on course completion and time spent.',  buttonText: 'Details' , link:"/project-lcMonitoring" , icon: TbListDetails },
+  { projectName: 'Lc-Monitor', description: 'Webapp to track student progress and provides insights on course completion and time spent.',  buttonText: 'Details' , link:"/project-lcMonitoring" , icon: TbListDetails },
 
   { projectName: 'tezKarya', description: ' A web app providing tools for URL shortening, custom QR codes, file conversions, and more.', buttonText: 'Go Live' , link:"https://link.okcl.org/" , icon: CiStreamOn},
 
